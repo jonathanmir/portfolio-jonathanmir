@@ -84,7 +84,7 @@ export const Home = (): JSX.Element => {
               </Button>
             </ProjectsAreaSocialMediaMessage>
             <ProjectsAreaContent>
-              <Text type="body1" color="grey2" css={{ marginBottom: "$2" }}>
+              <Text type="body1" color="grey2" css={{ marginBottom: "$2" , fontSize: "20px", fontWeight: "700"}}>
                 Projetos
               </Text>
               <Text as="h3" type="heading2" color="grey1">

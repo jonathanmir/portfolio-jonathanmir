@@ -4,10 +4,14 @@ import imgJS from "../public/static/img/stack/js.svg";
 import imgNode from "../public/static/img/stack/node.svg";
 import imgStyled from "../public/static/img/stack/styled.svg";
 import imgReact from "../public/static/img/stack/react.svg";
-import { FaVuejs } from "react-icons/fa";
-import { SiTypescript } from "react-icons/si";
-import { FaDocker } from "react-icons/fa";
-
+import {
+  SiTypescript,
+  SiTailwindcss,
+  SiPostgresql,
+  SiPython,
+  SiExpress,
+} from "react-icons/si";
+import { DiDjango } from "react-icons/di";
 export const stackData = [
   {
     title: "HTML",
@@ -29,11 +33,14 @@ export const stackData = [
     title: "Styled Components",
     img: imgStyled,
   },
+  { title: "Tailwind CSS", img: SiTailwindcss },
   {
     title: "React",
     img: imgReact,
   },
-  { title: "Vuejs", img: FaVuejs },
   { title: "TypeScript", img: SiTypescript },
-  { title: "Docker", img: FaDocker },
+  { title: "PostgreSQL", img: SiPostgresql },
+  { title: "Express", img: SiExpress },
+  { title: "Django", img: DiDjango },
+  { title: "Python", img: SiPython },
 ];
